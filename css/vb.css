@@ -1,8 +1,12 @@
+/* 一般の定義 */
+
 p{
     font-family: "Hiragino Kaku Gothic ProN", "YuGothic", serif;
     text-align: center;
     letter-spacing:0.2em;
 }
+
+/* ヘッダー部分定義 */
 
 header {
     width:1170px;
@@ -22,6 +26,27 @@ header a:hover{
     opacity:60%;
 }
 
+
+/* body 部分の定義 */
+
+body {
+    text-align:center;
+    width:1170px;
+}
+
+body a {
+    text-decoration:none; 
+    color:black;
+}
+
+body a:hover {
+    text-decoration:none;
+    color:black;
+    opacity: 60%;
+}
+
+
+/* index.html のクラスを定義 */
 .main{
     width:1170px;
     text-align:center;
@@ -37,7 +62,7 @@ header a:hover{
     margin-bottom:300px;
 }
 
-/* メニュー部分を指定 */
+/* メニュー部分を定義 */
 .menu-wrapper{
     width:1170px;
     height:500px;
@@ -68,7 +93,7 @@ header a:hover{
     font-family:courier;
 }
 
-/* footer 部分を変更 */
+/* footer 部分を定義 */
 footer {
     width:1170px;
     height:400px;
