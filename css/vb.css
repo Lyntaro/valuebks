@@ -60,6 +60,12 @@ body a:hover {
     font-weight:normal;
 }
 
+.main ul {
+    list-style:none;
+    text-decoration:none;
+    line-height:2;
+}
+
 .catch{
     margin-top:300px;
     margin-bottom:300px;
