@@ -35,7 +35,7 @@ body {
 }
 
 body a {
-    text-decoration:none; 
+
     color:black;
 }
 
@@ -45,8 +45,11 @@ body a:hover {
     opacity: 60%;
 }
 
+.image{
+    width:1170px;
+    text-align:center;
+}
 
-/* index.html のクラスを定義 */
 .main{
     width:1170px;
     text-align:center;
@@ -79,6 +82,9 @@ body a:hover {
 
 .menu-icon{
     position:relative;
+}
+
+.menu img{
 }
 
 .menu p{
