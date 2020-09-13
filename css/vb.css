@@ -1,16 +1,110 @@
+/* 一般の定義 */
+
 p{
     font-family: "Hiragino Kaku Gothic ProN", "YuGothic", serif;
     text-align: center;
     letter-spacing:0.2em;
 }
 
+/* ヘッダー部分定義 */
+
+header {
+    width:1170px;
+    font-family: "Hiragino Mincho", serif;
+    text-align:center;
+    letter-spacing:0.1em;
+}
+
+header a {
+    font-size:16px;
+    text-decoration:none;
+    color:black;
+}
+
+header a:hover{
+    text-decoration:none;
+    opacity:60%;
+}
+
+
+/* body 部分の定義 */
+
+body {
+    text-align:center;
+    width:1170px;
+}
+
+body a {
+
+    color:black;
+}
+
+body a:hover {
+    text-decoration:none;
+    color:black;
+    opacity: 60%;
+}
+
+.image{
+    width:1170px;
+    text-align:center;
+}
+
 .main{
     width:1170px;
     text-align:center;
+    letter-spacing:0.3em;
 }
 .main h2{
     font-family: "Hiragino Mincho", serif;
     font-weight:normal;
+}
+
+.main dl {
+    display:table;
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.main dl div{
+    border-bottom:solid 1px #cccccc;
+    margin:5px 0;
+    display:block;
+}
+
+.coffeemenu{
+    display:table;
+    width:30%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.coffeemenu dl div{
+    border-bottom:dashed 1px #cccccc;
+    margin:5px 0;
+    display:block;
+
+}
+
+.coffeemenu dt{
+    float:left;
+}
+
+.findlist li {
+    list-style:none;
+    text-decoration:none;
+    line-height:3;
+}
+
+.findlist a {
+    text-decoration:none;
+    color:black;
+}
+
+.findlist a:hover {
+    opacity:60%;
+    text-decoration:none;
 }
 
 .catch{
@@ -18,15 +112,13 @@ p{
     margin-bottom:300px;
 }
 
-/* メニュー部分を指定 */
+/* メニュー部分を定義 */
 .menu-wrapper{
     width:1170px;
     height:500px;
     margin-top:100px;
 }
 
-.manus{
-}
 .menu{
     float:left;
     width:20%;
@@ -49,7 +141,29 @@ p{
     font-family:courier;
 }
 
-/* footer 部分を変更 */
+.footer-contents {
+    width:55%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:200px;
+}
+
+.footer-contents li {
+    float:left;
+    list-style:none;
+    padding: 0 20px;
+    font-family:"Hiragino Mincho ProN",sans-serif;
+    font-size:15px;
+    letter-spacing:0.1em;
+    font-weight:bold;
+}
+
+.footer-contents a {
+    text-decoration:none;
+}
+
+
+/* footer 部分を定義 */
 footer {
     width:1170px;
     height:400px;
@@ -78,3 +192,7 @@ footer p {
     padding:0;
 }
 
+footer a {
+    text-decoration:none;
+    color:black;
+}
