@@ -60,6 +60,37 @@ body a:hover {
     font-weight:normal;
 }
 
+.main dl {
+    display:table;
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.main dl div{
+    border-bottom:solid 1px #cccccc;
+    margin:5px 0;
+    display:block;
+}
+
+.coffeemenu{
+    display:table;
+    width:30%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.coffeemenu dl div{
+    border-bottom:dashed 1px #cccccc;
+    margin:5px 0;
+    display:block;
+
+}
+
+.coffeemenu dt{
+    float:left;
+}
+
 .findlist li {
     list-style:none;
     text-decoration:none;
@@ -88,8 +119,6 @@ body a:hover {
     margin-top:100px;
 }
 
-.manus{
-}
 .menu{
     float:left;
     width:20%;
@@ -112,11 +141,32 @@ body a:hover {
     font-family:courier;
 }
 
+.footer-contents {
+    width:55%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:200px;
+}
+
+.footer-contents li {
+    float:left;
+    list-style:none;
+    padding: 0 20px;
+    font-family:"Hiragino Mincho ProN",sans-serif;
+    font-size:15px;
+    letter-spacing:0.1em;
+    font-weight:bold;
+}
+
+.footer-contents a {
+    text-decoration:none;
+}
+
+
 /* footer 部分を定義 */
 footer {
     width:1170px;
     height:400px;
-    margin-top:200px;
     position:relative;
     background-image:url(../images/cup.PNG);
     background-size:cover;
