@@ -60,10 +60,20 @@ body a:hover {
     font-weight:normal;
 }
 
-.main ul {
+.findlist ul {
     list-style:none;
     text-decoration:none;
-    line-height:2;
+    line-height:3;
+}
+
+.findlist a {
+    text-decoration:none;
+    color:black;
+}
+
+.findlist a:hover {
+    opacity:60%;
+    text-decoration:none;
 }
 
 .catch{
