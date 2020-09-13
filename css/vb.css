@@ -60,7 +60,7 @@ body a:hover {
     font-weight:normal;
 }
 
-.findlist ul {
+.findlist li {
     list-style:none;
     text-decoration:none;
     line-height:3;
